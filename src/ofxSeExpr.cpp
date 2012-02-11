@@ -68,13 +68,6 @@ bool ofxSeExpr::reload()
 		return false;
 	}
 	
-//	if (!isValid())
-//	{
-//		ofLogError("ofxSeExpr", "invalid");
-//		has_error = true;
-//		return false;
-//	}
-	
 	ofLogVerbose("ofxSeExpr", "reloaded");
 	
 	return true;
